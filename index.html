@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <main>
+    <h2>Contact</h2>
+        <form action="http://formspress.io/YOUR_EMAIL_HERE" method="post">
+
+            <label for="user-name">Name:</label>
+            <input id="user-name" type="text" name="name">
+        
+            <label for="user-email">Email:</label>
+            <input id="user-email" type="text" name="email" autofocus="on" required>
+        
+        
+            <label for="form-message"> Message:</label>
+            <textarea id="form-message" name="message"></textarea>
+
+            <button type= "submit">Submit</button>
+            <button type="reset">Reset</button>
+        </form>
+    
+    </main>
+</body>
+</html>
